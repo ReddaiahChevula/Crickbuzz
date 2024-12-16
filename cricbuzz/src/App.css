@@ -1,0 +1,506 @@
+body{
+  background-color: rgb(221, 214, 214);
+}
+
+/* ..................>>>>>>>>>>>>>>>>>>>>>>>>>NAVBAR<<<<<<<<<<<<<<<<<<<<<<<<......................... */
+
+.navbar_first{
+  background-color: rgb(3, 109, 67);
+}
+.toggler_div .nav-link{
+  font-size:  15px;;
+}
+
+.navbar_first #navbarSupportedContent li:hover{
+  background-color: rgb(31, 139, 103);
+}
+
+.navbar_second{
+  background-color: rgb(99, 70, 70);
+}
+
+nav .navbar_teams{
+  width: 330px;
+  justify-content: space-around;
+}
+
+nav .navbar_button{
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  width: 280px;
+  height: 60px;
+}
+
+nav .navbar_button button{
+  width: 150px;
+  height: fit-content;
+  border-radius: 20px;
+  color: grey;
+  position: relative;
+  top: 15px;
+}
+
+nav .navbar_button p i{
+  color: white;
+  font-size: 20px;
+  position: relative;
+  top: 20px;
+}
+.nav_all_dropdown{
+  position: relative;
+}
+
+.nav_all_dropdown_item{
+  position: absolute;
+  right: 30px;
+}
+
+
+
+/* .........................>>>>>>>>>>>>>>>>>>>>>>>>>OWL CAROUSEL<<<<<<<<<<<<<<<<<<<<<<<<................................. */
+
+.owl-carousel .owl-prev,.owl-carousel .owl-next{
+  position: absolute;
+  top: 40% !important;
+  transform: translateY(-50%) !important;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50% !important;
+  background-color: rgb(95, 155, 67) !important;
+  cursor: pointer;
+}
+
+.owl-prev{
+  left: 1%;
+}
+
+.owl-next{
+  right: 1%;
+}
+
+/* ...............................>>>>>>>>>>>>>>>>BODY<<<<<<<<<<<<<<<<<<<<<<<>.......................... */
+.Quickaccess{
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 5px;
+}
+.quick_access_subdiv{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+  margin-top: 8px;
+}
+.quick_access_subdiv .a-link{
+  text-decoration: none;
+  font-size: 15px;
+  background-color: rgb(205, 205, 205);
+  color: black;
+  padding: 5px;
+}
+
+
+/* ........................>>>>>>>>>>>>>>>>>>>OWL CAROUSEL<............................... */
+
+.item{
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.item p{
+   font-size: 12px;
+   height: fit-content;
+}
+
+ .item button{
+  border-radius: 10px;
+  font-size: 10px;
+}
+
+.item_image{
+  width: 10px;
+  height: 20px;
+}
+
+.item_last_div{
+  background-color: grey;
+  border-radius: 0px 0px 5px 5px;
+  color: azure;
+  font-weight: 300;
+}
+
+/* ..........>>>>>>>>>>>Body<<<<<<<<<.........>>>>>>>>>>INDIA TOUR<<<<<<<<<<<<<<................ */
+
+.india_tour .india_tour_img{
+  border-radius: 7px;
+}
+
+.featured_div{
+  width: 100%;
+  height: 30px;
+  background-color: red;
+}
+
+.featured_videos{
+  position: relative;
+}
+
+.featured_videos .featured_videos_img{
+  border-radius: 7px;
+}
+
+.featured_videos .featured_videos_para{
+  position: absolute;
+  top: 130px;
+  font-weight: 500;
+}
+
+.more_videos{
+  align-content: center;
+  text-align: center;
+}
+
+.specials .specials_img{
+  border-radius: 7px;
+}
+
+/* ...........>>>>>>>>>>>>>>>>>>>>>>>FOOTER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>........................... */
+
+.footer_icons{
+  color: white;
+}
+
+.footer_icons .f_icons,h6{
+  font-size: 13px;
+  padding: 2px;
+}
+
+.footer_copyright p{
+  font-size: 13px;
+  color: grey;
+}
+
+.footer_copyright p,a{
+  color: grey;
+  font-size: 300;
+  font-size: 13px;
+}
+
+.footer_copyright a:hover{
+  text-decoration-line: underline;
+  color: grey;
+}
+
+
+
+/* ............................>>>>>>>>>>>>>>COMMENTARY<<<<<<<<<<<<<<<<<<<<<<<.................... */
+
+.container .series {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.container .series a{
+  font-weight: 400;
+}
+
+.container .series span{
+  font-size: 12px;
+  color: grey;
+}
+
+.navbar ul li a{
+  font-size: 15px;
+  font-weight: 500;
+  color: black;
+}
+
+.navbar_undeline{
+  position: relative;
+  bottom:  12px;
+}
+
+.player_of_match p{
+  font-size: 13px;
+}
+
+.player_of_match a{
+  text-decoration: none;
+  position: relative;
+  bottom: 20px;
+}
+
+.player_of_match a:hover{
+  text-decoration: underline;
+}
+
+.zaheer_khan{
+  width: 100%;
+  height: 450px;
+  background-color: rgb(204, 203, 203);
+  position: relative;
+}
+
+.zaheer_khan .image{
+  border-radius: 5px;
+}
+
+.zaheer_khan i{
+  font-size: 80px;
+  position: absolute ;
+  right: 45%;
+  left: 42%;
+  top: 40%;
+  color: black;
+  border-radius: 50%;
+}
+
+.zaheer_khan .icons{
+  font-size: 15px;
+  color: black;
+}
+
+.surya_kumar p{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ .lastover{
+  width: 100px;
+  height: 30px;
+}
+
+.lastover_para{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.load_more_butn button{
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid grey;
+}
+
+.load_more_butn button:hover{
+  background-color: rgb(236, 231, 231);
+}
+
+/* ...........................>>>>>>>>>>>>>>>>>>>>>>HIGHLIGHTS<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<...................... */
+
+.ind_butn{
+  border-radius: 15px;
+  font-size: 10px;
+  width: fit-content;
+  height: fit-content;
+  text-align: center;
+  align-content: center;
+}
+
+.nav_highlights ul{
+  background-color: rgb(207, 207, 207);
+}
+
+.match_info p{
+  font-size: 13px;
+}
+
+.match_info_para p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 300;
+}
+
+/* ......................>>>>>>>>>>>>>>>>>>>>>>>>>>>>>LIVE BLOG<<<<<<<<<<<<<<<<<<<<<<<<<<<<<............................ */
+
+.live_blog_letest_news_img img{
+  border-radius: 5px;
+}
+
+/* ...................>>>>>>>>>>>>>>>>>>>>>>>>>NEWS<<<<<<<<<<<<<<<<<<<<<<<............................... */
+
+.news_imag img{
+  border-radius: 5px;
+}
+
+.news_imag_para a{
+  text-decoration: none;
+}
+
+.news_imag_para a:hover{
+  text-decoration: underline;
+}
+
+/* .................>>>>>>>>>>>>>>>>>>>>>>>>SQUADS<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<................................. */
+
+.squad_imag img{
+  border-radius: 10px;
+}
+
+.squad_imag{
+  background-color: rgb(159, 185, 144);
+  border-radius: 5px;
+}
+
+.squad_round_img img{
+  border-radius: 50%;
+}
+
+/* ...............>>>>>>>>>>>>>>>>SCROLLTOP<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<?...................... */
+
+.scroll_top{
+  z-index: 4;
+  position: fixed;
+  bottom: 20px;
+  right: 50%;
+  transform: translateX(50px) ;
+  background-color: rgba(25, 21, 21, 0.7);
+  cursor: pointer;
+  color: white;
+  border-radius: 30px;
+}
+
+
+/* ...............>>>>>>>>>>>>Login<<<<<<<<<<<<<<<<<<<<.................................. */
+
+.user_email{
+  background-color: brown;
+  top: 10px;
+  border-radius: 50%;
+  color: white;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.logoutcricbuzz{
+  position: absolute;
+  top: 80px;
+  right: 50px;
+  z-index: 4;
+  background-color: red;
+  height: 150px;
+  justify-content: center;
+  align-content: center;
+}
+
+.logoutcricbuzz .close_symbol{
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  cursor: pointer;
+  background-color: rgb(237, 43, 43);
+}
+
+.logoutcricbuzz button{
+  position: relative;
+}
+
+.logoutcricbuzz button .logout_icon{
+  position: absolute;
+  top: 9px;
+  font-size: 15px;
+}
+
+.logoutcricbuzz button:hover .logout_icon{
+  color: white;
+}
+
+.modal-heade .btn-close{
+  font-size: 28px;
+  
+}
+
+.sigupcricbuzz{
+  position: relative;
+}
+
+.sigupcricbuzz .signin_symbol{
+  position: absolute;
+  top: 11px;
+  color: gray;
+}
+
+.sigupcricbuzz button:hover .signin_symbol{
+  color: white;
+}
+
+
+
+/* .................>>>>>>>>>> Responsive for COMMENTARY <<<<<<<<<<<<<<<<<<<<</...................... */
+
+@media screen and (max-width:530px) {
+  .zaheer_khan{
+    height: max-content;
+  }
+  .toggler_div{
+    position: relative;
+    z-index: 2;
+    background-color:rgb(3, 109, 67) ;
+    padding: 20px;
+    margin-top: 10px;
+  }
+
+  .owl-carousel .item{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+  }
+
+  .latest_news{
+    margin-top: 10px;
+  }
+}
+
+
+/* ...........................>>>>>>>>>>>>>>>RESPONSIVE for QUICK ACCESS<<<<<<<<<<<<<<<<<................... */
+
+@media screen and (max-width:530px){
+
+.quick_access_subdiv{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+.quick_access_subdiv .a-link{
+  text-decoration: none;
+  font-size: 12px;
+  background-color: rgb(205, 205, 205);
+  color: black;
+  padding: 5px;
+}
+}
+
+@media screen and (min-width:770px){
+  .quick_access_subdiv{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 8px;
+  }
+  .quick_access_subdiv .a-link{
+    text-decoration: none;
+    font-size: 13px;
+    background-color: rgb(205, 205, 205);
+    color: black;
+    padding: 5px;
+  }
+
+  .toggler_div{
+    position: relative;
+    z-index: 2;
+    background-color:rgb(3, 109, 67) ;
+    padding: 20px;
+    margin-top: 10px;
+  }
+
+  
+}
